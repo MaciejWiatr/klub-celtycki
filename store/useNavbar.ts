@@ -10,6 +10,7 @@ const useNavbar = create<NavbarState>((set) => ({
 	showNavbar: false,
 	setShowNavbar: (val: boolean) => {
 		set(() => ({ showNavbar: val }));
+		document.body.classList.remove("overflow-hidden");
 	},
 	toggleNavbar: () => {
 		set(({ showNavbar }) => ({ showNavbar: !showNavbar }));
