@@ -1,4 +1,5 @@
 import { Navbar } from "./Navbar";
+import Link from "next/link";
 
 const LandingHeader = () => {
 	return (
@@ -16,12 +17,17 @@ const LandingHeader = () => {
 					</h1>
 				</div>
 				<div className="flex flex-col sm:flex-row sm:space-x-4 mt-8 mb-36 w-full justify-center md:justify-start relative z-10 space-y-4 sm:space-y-0">
-					<a className="p-4 pr-6 pl-6 font-bold bg-primary-blue rounded-lg cursor-pointer text-center sm:text-left">
+					<a
+						href="/#onas"
+						className="p-4 pr-6 pl-6 font-bold bg-primary-blue rounded-lg cursor-pointer text-center sm:text-left"
+					>
 						Dowiedz się więcej o nas
 					</a>
-					<a className="p-4 pr-6 pl-6 font-bold bg-none border-2 border-white rounded-lg hover:bg-white hover:text-secondary-blue cursor-pointer transition text-center sm:text-left">
-						Skontaktuj się z nami
-					</a>
+					<Link href="/kontakt">
+						<button className="p-4 pr-6 pl-6 font-bold bg-none border-2 border-white rounded-lg hover:bg-white hover:text-secondary-blue cursor-pointer transition text-center sm:text-left">
+							Skontaktuj się z nami
+						</button>
+					</Link>
 				</div>
 			</div>
 			<img
