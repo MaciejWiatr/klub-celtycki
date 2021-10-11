@@ -5,7 +5,9 @@ const Footer = () => {
 		<footer className="flex justify-center relative overflow-hidden text-white w-full">
 			<div className="max-w-6xl w-full p-12 z-20 relative">
 				<div className="text-center">
-					<p>STOWARZYSZENIE RODZINA KOLPINGA "KLUB CELTYCKI"</p>{" "}
+					<p className="font-bold">
+						STOWARZYSZENIE RODZINA KOLPINGA "KLUB CELTYCKI"
+					</p>{" "}
 					<p>31-436 Kraków ul. Żułowska 51</p>
 					<p>e-mail: kckrakow@kolping.pl</p>
 				</div>
