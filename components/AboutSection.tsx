@@ -3,7 +3,10 @@ const AboutSection = () => {
 		<section className="flex justify-center mb-10 overflow-hidden">
 			<div className="max-w-6xl w-full p-8">
 				<div className="font-mont mt-5">
-					<h3 className="text-xl md:text-2xl font-semibold text-primary-blue">
+					<h3
+						id="onas"
+						className="text-xl md:text-2xl font-semibold text-primary-blue"
+					>
 						Kilka słów o nas
 					</h3>
 					<h2 className="text-3xl md:text-5xl font-bold text-secondary-blue">
