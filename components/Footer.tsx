@@ -1,4 +1,5 @@
 import { BsFacebook } from "react-icons/bs";
+import { NavLink } from "./NavLink";
 
 const Footer = () => {
 	return (
@@ -11,14 +12,22 @@ const Footer = () => {
 					<p>31-436 Kraków ul. Żułowska 51</p>
 					<p>e-mail: kckrakow@kolping.pl</p>
 				</div>
-				<div className="text-4xl flex justify-center mt-8 mb-8">
+				<div className="text-4xl flex justify-center mt-8 mb-8 hover:text-primary-orange cursor-pointer transition">
 					<BsFacebook />
 				</div>
 				<ul className="flex justify-center space-x-5">
-					<li>O nas</li>
-					<li>Teatr</li>
-					<li>Działania</li>
-					<li>Kontakt</li>
+					<li>
+						<NavLink href="/#onas">O nas</NavLink>
+					</li>
+					<li>
+						<NavLink href="/teatr">Teatr</NavLink>
+					</li>
+					<li>
+						<NavLink href="/dzialania">Działania</NavLink>
+					</li>
+					<li>
+						<NavLink href="/kontakt">Kontakt</NavLink>
+					</li>
 				</ul>
 				<img className="mt-8" src="/images/ue-banner.png" />
 			</div>
