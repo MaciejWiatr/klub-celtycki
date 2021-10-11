@@ -45,7 +45,7 @@ const AboutSection = () => {
 						<p className="font-bold">Zapraszamy do nas!</p>
 					</article>
 					<img
-						className="absolute z-10 left-0 top-0 lg:w-3/5 opacity-10 lg:opacity-20 select-none"
+						className="h-full object-cover absolute z-10 left-0 top-0 lg:w-3/5 opacity-10 lg:opacity-20 select-none"
 						src="/images/kolping-about.png"
 					/>
 				</div>
