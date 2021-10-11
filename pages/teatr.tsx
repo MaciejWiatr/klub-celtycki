@@ -135,6 +135,7 @@ const TeatrPage = () => {
 						slidesPerView={photoAmout}
 						spaceBetween={20}
 						navigation={false}
+						loop={true}
 						autoplay={{
 							delay: 2000,
 							disableOnInteraction: false,
