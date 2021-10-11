@@ -16,6 +16,7 @@ module.exports = {
 				"primary-orange": "#F58220",
 				"secondary-blue": "#243059",
 				text: "#3A3A3C",
+				"subtle-blue": "#EAEDF6",
 			},
 			height: {
 				fullpage: "100vh",
