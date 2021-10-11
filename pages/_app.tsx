@@ -6,6 +6,7 @@ import "swiper/css/autoplay";
 import { useRouter } from "next/router";
 import useNavbar from "../store/useNavbar";
 import { useEffect } from "react";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
 	const router = useRouter();
@@ -20,9 +21,19 @@ function MyApp({ Component, pageProps }) {
 	};
 
 	return (
-		<main className="font-mul">
-			<Component {...pageProps} />
-		</main>
+		<>
+			<Head>
+				<title>Rodzina Kolpinga Klub Celtycki w Krakowie</title>
+				<link
+					rel="shortcut icon"
+					href="/favicon.png"
+					type="image/x-icon"
+				/>
+			</Head>
+			<main className="font-mul">
+				<Component {...pageProps} />
+			</main>
+		</>
 	);
 }
 
