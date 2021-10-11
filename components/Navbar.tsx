@@ -1,9 +1,8 @@
 import KolpingLogo from "./KolpingLogo";
-import clsx from "clsx";
-import { useState } from "react";
+import useNavbar from "../store/useNavbar";
 
 export const Navbar = () => {
-	const [showNavigation, setShowNavigation] = useState(true);
+	const { showNavbar, toggleNavbar } = useNavbar();
 
 	return (
 		<>
@@ -26,35 +25,28 @@ export const Navbar = () => {
 				</ul>
 				<div
 					className="md:hidden bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue cursor-pointer select-none"
-					onClick={() => {
-						setShowNavigation((s) => !s);
-					}}
+					onClick={toggleNavbar}
 				>
 					Menu
 				</div>
 			</nav>
-			<div
-				className={clsx(
-					"md:hidden absolute w-full h-screen left-0 top-0 bg-secondary-blue z-30",
-					{
-						hidden: showNavigation,
-					}
-				)}
-			>
-				<ul className="w-full h-full flex justify-center items-center flex-col space-y-12">
-					<li>O nas</li>
-					<li>Teatr</li>
-					<li>Działania</li>
-					<li>
-						<a
-							href="/kontakt"
-							className="bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue"
-						>
-							Kontakt
-						</a>
-					</li>
-				</ul>
-			</div>
+			{showNavbar && (
+				<div className="md:hidden absolute w-full h-screen left-0 top-0 bg-secondary-blue z-30">
+					<ul className="w-full h-full flex justify-center items-center flex-col space-y-12">
+						<li>O nas</li>
+						<li>Teatr</li>
+						<li>Działania</li>
+						<li>
+							<a
+								href="/kontakt"
+								className="bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue"
+							>
+								Kontakt
+							</a>
+						</li>
+					</ul>
+				</div>
+			)}
 		</>
 	);
 };
