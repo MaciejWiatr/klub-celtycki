@@ -19,7 +19,7 @@ const LandingHeader = () => {
 					<a className="p-4 pr-6 pl-6 font-bold bg-primary-blue rounded-lg cursor-pointer text-center sm:text-left">
 						Dowiedz się więcej o nas
 					</a>
-					<a className="p-4 pr-6 pl-6 font-bold bg-none border-2 border-white rounded-lg hover:bg-white hover:text-bg-secondary-blue cursor-pointer transition text-center sm:text-left">
+					<a className="p-4 pr-6 pl-6 font-bold bg-none border-2 border-white rounded-lg hover:bg-white hover:text-secondary-blue cursor-pointer transition text-center sm:text-left">
 						Skontaktuj się z nami
 					</a>
 				</div>
