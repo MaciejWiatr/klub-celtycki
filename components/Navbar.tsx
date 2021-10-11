@@ -1,5 +1,6 @@
 import KolpingLogo from "./KolpingLogo";
 import useNavbar from "../store/useNavbar";
+import Link from "next/link";
 
 export const Navbar = () => {
 	const { showNavbar, toggleNavbar } = useNavbar();
@@ -7,13 +8,19 @@ export const Navbar = () => {
 	return (
 		<>
 			<nav className="h-16 flex justify-between items-center text-white z-40 relative">
-				<div>
+				<a href="/">
 					<KolpingLogo />
-				</div>
+				</a>
 				<ul className="hidden md:flex space-x-6 font-medium">
-					<li>O nas</li>
-					<li>Teatr</li>
-					<li>Działania</li>
+					<li>
+						<Link href="/#onas">O nas</Link>
+					</li>
+					<li>
+						<Link href="/teatr">Teatr</Link>
+					</li>
+					<li>
+						<Link href="/dzialania">Działania</Link>
+					</li>
 					<li>
 						<a
 							href="/kontakt"
