@@ -9,7 +9,7 @@ const SectionHeader = ({ title, description, img }) => {
 					<h1 className="text-4xl md:text-6xl font-bold font-mont">
 						{title}
 					</h1>
-					<p className="max-w-full w-96 mt-8 leading-loose text-md md:text-xl">
+					<p className="max-w-full w-full md:w-1/2 mt-8 leading-loose text-md md:text-xl font-light">
 						{description}
 					</p>
 				</div>
