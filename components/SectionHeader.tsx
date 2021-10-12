@@ -3,7 +3,7 @@ import { Navbar } from "./Navbar";
 const SectionHeader = ({ title, description, img }) => {
 	return (
 		<header className="w-full bg-secondary-blue relative p-8 text-white flex justify-center">
-			<div className="max-w-6xl w-full z-10">
+			<div className="max-w-6xl w-full z-50">
 				<Navbar />
 				<div className="mt-16 mb-16 md:mt-24 md:mb-24">
 					<h1 className="text-4xl md:text-6xl font-bold font-mont">
