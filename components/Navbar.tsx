@@ -7,7 +7,7 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<nav className="h-16 flex justify-between items-center text-white z-40 relative">
+			<nav className="h-16 flex justify-between items-center text-white z-50 relative">
 				<a href="/">
 					<KolpingLogo />
 				</a>
@@ -34,11 +34,11 @@ export const Navbar = () => {
 					className="md:hidden bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue cursor-pointer select-none"
 					onClick={toggleNavbar}
 				>
-					Menu
+					{showNavbar ? "Zamknij menu" : "Menu"}
 				</div>
 			</nav>
 			{showNavbar && (
-				<div className="md:hidden absolute w-full h-screen left-0 top-0 bg-secondary-blue z-30">
+				<div className="z-40 md:hidden fixed w-full h-screen left-0 top-0 bg-secondary-blue">
 					<ul className="w-full h-full flex justify-center items-center flex-col space-y-12">
 						<li>
 							<NavLink href="/#onas">O nas</NavLink>
