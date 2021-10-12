@@ -16,7 +16,9 @@ module.exports = {
 				"primary-orange": "#F58220",
 				"secondary-blue": "#243059",
 				text: "#3A3A3C",
+				"dark-blue": "#141B33",
 				"subtle-blue": "#EAEDF6",
+				"gradient-gray": "rgba(196, 196, 196,0.3)",
 			},
 			height: {
 				fullpage: "100vh",
