@@ -18,7 +18,7 @@ const NotFoundPage = () => {
 			</div>
 			<img
 				className="absolute w-full h-full object-cover z-0 opacity-20 top-0"
-				src="/images/404bg.jpg"
+				src="/images/404bg.JPG"
 			/>
 		</div>
 	);
