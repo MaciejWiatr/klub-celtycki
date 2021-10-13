@@ -12,9 +12,13 @@ const Footer = () => {
 					<p>31-436 Kraków ul. Żułowska 51</p>
 					<p>e-mail: kckrakow@kolping.pl</p>
 				</div>
-				<div className="text-4xl flex justify-center mt-8 mb-8 hover:text-primary-orange cursor-pointer transition">
+				<a
+					target="_blank"
+					href="https://www.facebook.com/KolpingKlubCeltycki/"
+					className="text-4xl flex justify-center mt-8 mb-8 hover:text-primary-orange cursor-pointer transition"
+				>
 					<BsFacebook />
-				</div>
+				</a>
 				<ul className="flex justify-center space-x-5">
 					<li>
 						<NavLink href="/#onas">O nas</NavLink>
