@@ -3,7 +3,7 @@ import useNavbar from "../store/useNavbar";
 import { NavLink } from "./NavLink";
 import { FC } from "react";
 import clsx from "clsx";
-
+import Link from "next/link";
 interface IProps {
 	reversed?: boolean;
 }
@@ -32,16 +32,17 @@ export const Navbar: FC<IProps> = ({ reversed = false }) => {
 						<NavLink href="/dzialania">Nasze działania</NavLink>
 					</li>
 					<li className="hover:text-primary-orange">
-						<a
-							href="/kontakt"
-							className={clsx("p-3 pr-5 pl-5 rounded-md", {
-								"bg-secondary-blue text-white": reversed,
-								"bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue":
-									!reversed,
-							})}
-						>
-							Kontakt
-						</a>
+						<Link href="/kontakt">
+							<a
+								className={clsx("p-3 pr-5 pl-5 rounded-md", {
+									"bg-secondary-blue text-white": reversed,
+									"bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue":
+										!reversed,
+								})}
+							>
+								Kontakt
+							</a>
+						</Link>
 					</li>
 				</ul>
 				<div
@@ -72,12 +73,11 @@ export const Navbar: FC<IProps> = ({ reversed = false }) => {
 							<NavLink href="/dzialania">Działania</NavLink>
 						</li>
 						<li className="hover:text-primary-orange">
-							<a
-								href="/kontakt"
-								className="bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue"
-							>
-								Kontakt
-							</a>
+							<Link href="/kontakt">
+								<a className="bg-white p-3 pr-5 pl-5 rounded-md text-secondary-blue">
+									Kontakt
+								</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
