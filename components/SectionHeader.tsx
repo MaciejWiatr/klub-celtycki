@@ -1,6 +1,6 @@
 import { Navbar } from "./Navbar";
 
-const SectionHeader = ({ title, description, img }) => {
+const SectionHeader = ({ title, description = "", img }) => {
 	return (
 		<header className="w-full bg-secondary-blue relative p-8 text-white flex justify-center">
 			<div className="max-w-6xl w-full z-50">
