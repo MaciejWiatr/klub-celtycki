@@ -4,6 +4,7 @@ import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useMedia } from "react-use";
 import { useEffect, useState } from "react";
+import { NavLink } from "../components/NavLink";
 
 const TeatrPage = () => {
 	const isSm = useMedia("(min-width: 640px)");
@@ -25,7 +26,7 @@ const TeatrPage = () => {
 		<>
 			<SectionHeader
 				title="Teatr to nasza pasja"
-				description="Nasza historia sięga roku 1997, kiedy założyciele naszego stowarzyszenia – głównie studenci krakowskiego Ignatianum, zafascynowani postacią księdza Kolpinga i kulturą celtycką"
+				description="Elit deserunt officia aliquip sit exercitation pariatur. Lorem excepteur in mollit eu elit proident sint ex ad. Excepteur magna aute et occaecat eiusmod aliquip consectetur. Anim laborum ad eiusmod duis laborum ullamco dolor laboris."
 				img="/images/teatr-bg.png"
 			/>
 			<article className="justify-center flex p-8 pt-24 pb-24">
@@ -228,7 +229,11 @@ const TeatrPage = () => {
 			</article>
 			<div className="p-16 text-center bg-subtle-blue text-xl font-semibold">
 				<p>Dla ciebie teatr również jest pasją?</p>
-				<p>Przyjdź do nas</p>
+				<NavLink href="/kontakt">
+					<span className="text-primary-blue font-bold">
+						Przyjdź do nas
+					</span>
+				</NavLink>
 				<p>Zaangażuj się!</p>
 			</div>
 			<Footer />
