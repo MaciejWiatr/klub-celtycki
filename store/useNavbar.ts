@@ -1,7 +1,7 @@
 import create from "zustand";
 
 interface NavbarState {
-	showNavbar: Boolean;
+	showNavbar: boolean;
 	toggleNavbar: () => void;
 	setShowNavbar: (val: boolean) => void;
 }
