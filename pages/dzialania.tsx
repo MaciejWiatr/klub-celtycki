@@ -67,6 +67,7 @@ const DzialaniaPage = () => {
 			</div>
 			{activities.map(({ title, description, img }) => (
 				<ActivityCard
+					key={title}
 					title={title}
 					description={description}
 					img={img}
@@ -74,11 +75,12 @@ const DzialaniaPage = () => {
 			))}
 			<div className="p-8 text-center bg-primary-orange text-md font-semibold text-white">
 				<p>
-					Jeżeli chcesz pomóc w naszych działaniach{" "}
+					Jeżeli chcesz pomóc w naszych działaniach
+					<br />
 					<Link href="/kontakt">
-						<p className="text-dark-blue font-bold cursor-pointer">
+						<a className="text-dark-blue font-bold cursor-pointer">
 							skontaktuj się z nami!
-						</p>
+						</a>
 					</Link>
 				</p>
 			</div>
