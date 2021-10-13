@@ -1,6 +1,8 @@
+import { NavLink } from "./NavLink";
+
 const AboutSection = () => {
 	return (
-		<section className="flex justify-center mb-10 overflow-hidden">
+		<section className="flex flex-col items-center overflow-hidden">
 			<div className="max-w-6xl w-full p-8">
 				<div className="font-mont mt-5">
 					<h3
@@ -13,7 +15,7 @@ const AboutSection = () => {
 						Kim jesteśmy?
 					</h2>
 				</div>
-				<div className="flex justify-end relative">
+				<div className="flex justify-end relative mb-8">
 					<article className="lg:w-1/2 space-y-10 relative z-20 mt-5">
 						<p>
 							Nasza historia sięga roku 1997, kiedy założyciele
@@ -48,9 +50,22 @@ const AboutSection = () => {
 						<p className="font-bold">Zapraszamy do nas!</p>
 					</article>
 					<img
-						className="h-full object-cover absolute z-10 left-0 top-0 lg:w-3/5 opacity-10 lg:opacity-20 select-none"
+						className="h-full object-contain absolute z-10 left-0 top-0 lg:w-3/5 opacity-10 lg:opacity-20 select-none"
 						src="/images/kolping-about.png"
 					/>
+				</div>
+			</div>
+			<div className="p-12 w-full text-center bg-subtle-blue text-xl font-bold">
+				<p>Czytaj dalej:</p>
+				<div className="flex justify-center space-x-4 mt-2 font-normal text-sm">
+					<NavLink href="/teatr">
+						<div className="p-2 bg-white rounded shadow">Teatr</div>
+					</NavLink>
+					<NavLink href="/dzialania">
+						<div className="p-2 bg-white rounded shadow">
+							Nasze działania
+						</div>
+					</NavLink>
 				</div>
 			</div>
 		</section>
