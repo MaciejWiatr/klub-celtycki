@@ -25,8 +25,10 @@ const TeatrPage = () => {
 	return (
 		<>
 			<SectionHeader
+				isQuote={true}
 				title="Teatr to nasza pasja"
-				description="Elit deserunt officia aliquip sit exercitation pariatur. Lorem excepteur in mollit eu elit proident sint ex ad. Excepteur magna aute et occaecat eiusmod aliquip consectetur. Anim laborum ad eiusmod duis laborum ullamco dolor laboris."
+				description="Świat podobny jest do amatorskiego teatru;\n więc nieprzyzwoicie jest pchać się w nim do ról pierwszych,\n a odrzucać podrzędne.\n Wreszcie, każda rola jest dobra,\no ile grać ją z artyzmem i nie brać zbyt poważnie."
+				quoteAuthor="Bolesław Prus - Lalka"
 				img="/images/teatr-bg.png"
 			/>
 			<article className="justify-center flex p-8 pt-24 pb-24">
