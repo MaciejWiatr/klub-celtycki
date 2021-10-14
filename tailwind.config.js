@@ -27,7 +27,9 @@ module.exports = {
 		},
 	},
 	variants: {
-		extend: {},
+		extend: {
+			margin: ["responsive", "hover", "first"],
+		},
 	},
 	plugins: [require("@tailwindcss/forms")],
 };
