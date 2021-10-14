@@ -3,7 +3,7 @@ const administrationMembers = [
 	{
 		name: "Krystyna Maciurzyńska",
 		title: "zastępca przewodniczącego",
-		contact: "kmaciurzynska@gmail.com",
+		contact: "KMaciurzynska@kolping.pl",
 	},
 	{
 		name: "Dorota Pala",

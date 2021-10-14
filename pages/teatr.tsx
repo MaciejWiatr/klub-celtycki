@@ -81,8 +81,8 @@ const TeatrPage = () => {
 						</p>
 					</div>
 					<img
-						src="/images/article-2.png"
-						className="rounded-xl md:rounded-3xl mb-16"
+						src="/images/teatr-2.jpg"
+						className="rounded-lg md:rounded-3xl mb-16"
 					/>
 					<h3 className="font-semibold font-mont text-xl">
 						Podejmowaliśmy również inne rodzaje działalności
@@ -94,7 +94,7 @@ const TeatrPage = () => {
 					</h3>
 					<div className="mt-16 mb-16 space-y-8">
 						<p>
-							Zespół nasz został zaproszony do nawiedzenia
+							Zespół nasz został zaproszony do odwiedzenia
 							Sanktuarium Świętego Jakuba Apostoła w Więcławicach
 							Starych. Z tej okazji zaprezentowaliśmy widowisko
 							pt. „Camino de Santiago” wg. scenariusza członków
@@ -156,7 +156,7 @@ const TeatrPage = () => {
 					<div className="p-8 md:p-16 rounded-xl mt-16 bg-secondary-blue text-white relative overflow-hidden mb-16">
 						<div className="z-20 relative">
 							<h3 className="text-3xl font-bold">Nasz zespół</h3>
-							<p className="mt-4 mb-4">
+							<p className="mt-4 mb-4 font-bold">
 								W tym czasie na scenie pojawili się
 								seniorzy-aktorzy:
 							</p>
@@ -188,6 +188,14 @@ const TeatrPage = () => {
 									<p>Krystyna Turzańska</p>
 									<p>Krystyna Zielonka</p>
 								</div>
+							</div>
+							<p className="mt-4 mb-4 font-bold">
+								Wsparcie techniczne i scenograficzne:
+							</p>
+							<div className="pr-6">
+								<p>Patrycja Kwapik</p>
+								<p>Pavlo Khmara</p>
+								<p>Józef Sikorski</p>
 							</div>
 						</div>
 						<img

@@ -68,6 +68,33 @@ const KontaktPage = () => {
 							)}
 						</div>
 					</div>
+					<div className="mt-16">
+						<h2 className="font-mont text-2xl font-bold">Linki</h2>
+						<div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 mb-8">
+							<div>
+								<p className="font-semibold">
+									Związek Centralny Dzieła Kolpinga w Polsce
+								</p>
+								<a
+									href="https://kolping.pl"
+									className="text-primary-blue font-semibold"
+								>
+									<p>https://kolping.pl</p>
+								</a>
+							</div>
+							<div>
+								<p className="font-semibold">
+									Fundacja Dzieła Kolpinga w Polsce
+								</p>
+								<a
+									href="http://www.fundacja.kolping.pl"
+									className="text-primary-blue font-semibold"
+								>
+									<p>http://www.fundacja.kolping.pl</p>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<Footer />

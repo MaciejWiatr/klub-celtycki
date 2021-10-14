@@ -13,8 +13,8 @@ export const Navbar: FC<IProps> = ({ reversed = false }) => {
 
 	return (
 		<>
-			<nav className="h-16 flex justify-between items-center text-white z-50 relative">
-				<a href="/">
+			<nav className="h-16 flex justify-between items-center text-white z-50 relative mt-2">
+				<a href="/" className="-left-1 relative">
 					<KolpingLogo reversed={reversed && !showNavbar} />
 				</a>
 				<ul
@@ -70,7 +70,7 @@ export const Navbar: FC<IProps> = ({ reversed = false }) => {
 							<NavLink href="/teatr">Teatr</NavLink>
 						</li>
 						<li>
-							<NavLink href="/dzialania">Działania</NavLink>
+							<NavLink href="/dzialania">Nasze działania</NavLink>
 						</li>
 						<li className="hover:text-primary-orange">
 							<Link href="/kontakt">

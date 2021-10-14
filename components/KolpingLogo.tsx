@@ -7,8 +7,8 @@ interface IProps {
 const KolpingLogo: FC<IProps> = ({ reversed = false }) => {
 	return (
 		<svg
-			width="65"
-			height="66"
+			width="85"
+			height="85"
 			viewBox="0 0 65 66"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"

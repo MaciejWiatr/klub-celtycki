@@ -15,7 +15,8 @@ const DzialaniaPage = () => {
 			<div className="p-8 text-center bg-primary-orange text-md font-semibold text-white">
 				<p>
 					Stowarzyszenie Rodzina Kolpinga Klub Celtycki prowadzi
-					różnorodne działania, pozyskując również na nie środki:
+					różnorodne działania, pozyskując również na nie środki
+					zewnętrzne:
 				</p>
 			</div>
 			<div className="bg-dark-blue relative">

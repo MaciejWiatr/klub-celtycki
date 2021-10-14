@@ -12,7 +12,7 @@ const NotFoundPage = () => {
 				<nav className="flex flex-col md:flex-row text-md text-center space-y-4 md:space-y-0 md:space-x-8 mt-5 bg-white text-secondary-blue p-4 pl-5 pr-5 md:p-4 md:pl-6 md:pr-6 font-semibold rounded-xl md:rounded-full">
 					<NavLink href="/">Strona główna</NavLink>
 					<NavLink href="/teatr">Teatr</NavLink>
-					<NavLink href="/dzialania">Działania</NavLink>
+					<NavLink href="/dzialania">Nasze działania</NavLink>
 					<NavLink href="/kontakt">Kontakt</NavLink>
 				</nav>
 			</div>

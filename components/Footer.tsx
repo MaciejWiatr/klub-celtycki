@@ -27,13 +27,23 @@ const Footer = () => {
 						<NavLink href="/teatr">Teatr</NavLink>
 					</li>
 					<li>
-						<NavLink href="/dzialania">Działania</NavLink>
+						<NavLink href="/dzialania">Nasze działania</NavLink>
 					</li>
 					<li>
 						<NavLink href="/kontakt">Kontakt</NavLink>
 					</li>
 				</ul>
-				<img className="mt-8" src="/images/ue-banner.png" />
+				<img className="mt-8" src="/images/banner.png" />
+				<p className="text-center mt-8 text-white">
+					Strona powstała w ramach inicjatywy młodzieżowej{" "}
+					<NavLink href="https://www.facebook.com/code4helpPL">
+						Code4Help
+					</NavLink>
+					, zrealizowanej przez uczestników projektu{" "}
+					<NavLink href="https://aktywnie-spolecznie.kolping.pl/">
+						AS: aktywnie – społecznie
+					</NavLink>
+				</p>
 			</div>
 			<img
 				className="absolute w-full h-full object-cover"
