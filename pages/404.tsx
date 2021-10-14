@@ -17,6 +17,7 @@ const NotFoundPage = () => {
 				</nav>
 			</div>
 			<img
+				alt="banner 404"
 				className="absolute w-full h-full object-cover z-0 opacity-20 top-0"
 				src="/images/404bg.JPG"
 			/>

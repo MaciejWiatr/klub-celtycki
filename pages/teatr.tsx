@@ -47,7 +47,11 @@ const TeatrPage = () => {
 						Zapolskiej. Zespół powiększył się o kolejne osoby – w
 						sumie już dziewięć.
 					</p>
-					<img src="/images/teatr-1.png" className="w-full mb-16" />
+					<img
+						alt="Zdjęcie grupowe klubu celtyckiego"
+						src="/images/teatr-1.png"
+						className="w-full mb-16"
+					/>
 					<h3 className="font-mont text-xl font-semibold">
 						Dzięki dofinansowaniu z programu ASOS mogliśmy
 						zorganizować warsztaty z profesjonalnym aktorem i
@@ -81,6 +85,7 @@ const TeatrPage = () => {
 						</p>
 					</div>
 					<img
+						alt="Zdjęcie z Arturem Dziurmanem"
 						src="/images/teatr-2.jpg"
 						className="rounded-lg md:rounded-3xl mb-16"
 					/>
@@ -147,6 +152,7 @@ const TeatrPage = () => {
 							.map((x, index) => (
 								<SwiperSlide key={index}>
 									<img
+										alt={`zdjęcie teatr ${index}`}
 										className="h-48 w-full object-cover rounded-xl"
 										src={`/images/slides/${index + 1}.jpg`}
 									/>
@@ -199,6 +205,7 @@ const TeatrPage = () => {
 							</div>
 						</div>
 						<img
+							alt="Zdjęcie zespołu"
 							src="/images/zespol.png"
 							className="absolute left-0 top-0 w-full h-full object-cover z-10 opacity-20"
 						/>

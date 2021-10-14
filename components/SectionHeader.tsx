@@ -16,6 +16,7 @@ const SectionHeader = ({ title, description = "", img }) => {
 			</div>
 			<img
 				className="absolute object-cover w-full h-full top-0 left-0 opacity-20"
+				alt="banner sekcji"
 				src={img}
 			/>
 		</header>

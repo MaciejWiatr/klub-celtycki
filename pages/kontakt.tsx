@@ -14,8 +14,8 @@ const KontaktPage = () => {
 						<div>
 							<span className="font-semibold">
 								STOWARZYSZENIE RODZINA
-								<br /> KOLPINGA "KLUB CELTYCKI" 31-436 Kraków
-								ul. Żułowska 51
+								<br /> KOLPINGA "KLUB CELTYCKI"
+								<br /> 31-436 Kraków ul. Żułowska 51
 							</span>
 							<br /> e-mail: kckrakow@kolping.pl
 						</div>
@@ -77,6 +77,7 @@ const KontaktPage = () => {
 								</p>
 								<a
 									href="https://kolping.pl"
+									target="_blank"
 									className="text-primary-blue font-semibold"
 								>
 									<p>https://kolping.pl</p>
@@ -88,6 +89,7 @@ const KontaktPage = () => {
 								</p>
 								<a
 									href="http://www.fundacja.kolping.pl"
+									target="_blank"
 									className="text-primary-blue font-semibold"
 								>
 									<p>http://www.fundacja.kolping.pl</p>

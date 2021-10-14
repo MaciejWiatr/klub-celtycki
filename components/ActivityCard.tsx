@@ -20,6 +20,7 @@ const ActivityCard = ({ title, description, img }) => {
 			</div>
 			<div className="w-full h-full absolute left-0 top-0 z-20  bg-gradient-to-r from-dark-blue to-gradient-gray" />
 			<img
+				alt={img}
 				className={clsx(
 					"transform object-cover w-full h-full absolute left-0 top-0 z-10 transition duration-700 grayscale",
 					{

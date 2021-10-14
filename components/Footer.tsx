@@ -13,6 +13,7 @@ const Footer = () => {
 					<p>e-mail: kckrakow@kolping.pl</p>
 				</div>
 				<a
+					aria-label="Facebook"
 					target="_blank"
 					href="https://www.facebook.com/KolpingKlubCeltycki/"
 					className="text-4xl flex justify-center mt-8 mb-8 hover:text-primary-orange cursor-pointer transition"
@@ -33,19 +34,32 @@ const Footer = () => {
 						<NavLink href="/kontakt">Kontakt</NavLink>
 					</li>
 				</ul>
-				<img className="mt-8" src="/images/banner.png" />
+				<img
+					alt="Banner z logo unii europejskiej oraz kolpinga"
+					className="mt-8"
+					src="/images/banner.png"
+				/>
 				<p className="text-center mt-8 text-white">
 					Strona powstała w ramach inicjatywy młodzieżowej{" "}
-					<NavLink href="https://www.facebook.com/code4helpPL">
+					<a
+						className="hover:text-primary-orange"
+						target="_blank"
+						href="https://www.facebook.com/code4helpPL"
+					>
 						Code4Help
-					</NavLink>
+					</a>
 					, zrealizowanej przez uczestników projektu{" "}
-					<NavLink href="https://aktywnie-spolecznie.kolping.pl/">
+					<a
+						className="hover:text-primary-orange"
+						target="_blank"
+						href="https://aktywnie-spolecznie.kolping.pl/"
+					>
 						AS: aktywnie – społecznie
-					</NavLink>
+					</a>
 				</p>
 			</div>
 			<img
+				alt="baner stopki"
 				className="absolute w-full h-full object-cover"
 				src="/images/footer-banner.png"
 			/>

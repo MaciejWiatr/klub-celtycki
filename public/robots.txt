@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://klubceltycki.kolping.pl
+
+# Sitemaps
+Sitemap: https://klubceltycki.kolping.pl/sitemap.xml

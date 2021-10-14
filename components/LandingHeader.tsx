@@ -30,6 +30,7 @@ const LandingHeader = () => {
 				</div>
 			</div>
 			<img
+				alt="banner nagłówka"
 				src="/images/header-bg.png"
 				className="absolute top-0 left-0 object-cover w-full h-full grayscale opacity-20 z-0"
 			></img>
