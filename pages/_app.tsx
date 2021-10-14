@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import useNavbar from "../store/useNavbar";
 import { useEffect } from "react";
 import Head from "next/head";
+import MetaTags from "../components/MetaTags";
 
 function MyApp({ Component, pageProps }) {
 	const router = useRouter();
@@ -23,12 +24,13 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Rodzina Kolpinga Klub Celtycki w Krakowie</title>
+				<title>Rodzina Kolpinga - Klub Celtycki w Krakowie</title>
 				<link
 					rel="shortcut icon"
 					href="/favicon.png"
 					type="image/x-icon"
 				/>
+				<MetaTags />
 			</Head>
 			<main className="font-mul">
 				<Component {...pageProps} />
