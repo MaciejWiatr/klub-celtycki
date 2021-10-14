@@ -44,8 +44,8 @@ const AboutSection = () => {
 							Stow. Rodzina Kolpinga Klub Celtycki w Krakowie ma
 							swoją siedzibę przy ul. Żułowskiej 51, ale działamy
 							również na terenie parafii pw. Pana Jezusa Dobrego
-							Pasterza oraz terenie krakowskiej dzielnicy Prądnik
-							Czerwony.
+							Pasterza oraz na terenie krakowskiej dzielnicy
+							Prądnik Czerwony.
 						</p>
 						<p className="font-bold">Zapraszamy do nas!</p>
 					</article>
